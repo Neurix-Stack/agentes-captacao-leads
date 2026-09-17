@@ -7,9 +7,9 @@ $skillsDest = Join-Path $env:USERPROFILE ".claude\skills\captar-leads"
 
 New-Item -ItemType Directory -Force -Path $agentsDest | Out-Null
 New-Item -ItemType Directory -Force -Path $skillsDest | Out-Null
-Copy-Item (Join-Path $scriptDir ".claude\agents\lead-finder.md") -Destination $agentsDest -Force
-Copy-Item (Join-Path $scriptDir ".claude\agents\lead-qualifier.md") -Destination $agentsDest -Force
-Copy-Item (Join-Path $scriptDir ".claude\skills\captar-leads\SKILL.md") -Destination $skillsDest -Force
+Copy-Item (Join-Path $scriptDir "lead-finder.md") -Destination $agentsDest -Force
+Copy-Item (Join-Path $scriptDir "lead-qualifier.md") -Destination $agentsDest -Force
+Copy-Item (Join-Path $scriptDir "SKILL.md") -Destination $skillsDest -Force
 
 Write-Output ""
 Write-Output "Instalado com sucesso."

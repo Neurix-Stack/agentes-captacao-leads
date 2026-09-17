@@ -11,7 +11,9 @@ Um comando (`/captar-leads`) que automatiza a primeira parte de qualquer process
 - Windows: clique com o botão direito em `instalar.ps1` → "Executar com PowerShell" (ou rode `powershell -ExecutionPolicy Bypass -File instalar.ps1` no terminal).
 - Mac/Linux: abra o terminal nesta pasta e rode `bash instalar.sh`.
 
-**Opção 2 — manual:** copie `.claude/agents/lead-finder.md`, `.claude/agents/lead-qualifier.md` e a pasta `.claude/skills/captar-leads/` pra dentro do seu `~/.claude/` (no Windows: `C:\Users\SEU-USUARIO\.claude\`), nas subpastas `agents/` e `skills/` correspondentes.
+**Opção 2 — manual:**
+1. Copie `lead-finder.md` e `lead-qualifier.md` pra dentro de `~/.claude/agents/` (no Windows: `C:\Users\SEU-USUARIO\.claude\agents\`). Crie a pasta se ela não existir.
+2. Copie `SKILL.md` pra dentro de `~/.claude/skills/captar-leads/` (no Windows: `C:\Users\SEU-USUARIO\.claude\skills\captar-leads\`). Crie as pastas se não existirem.
 
 ## Como usar
 

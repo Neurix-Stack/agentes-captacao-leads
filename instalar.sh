@@ -8,9 +8,9 @@ AGENTS_DEST="$HOME/.claude/agents"
 SKILLS_DEST="$HOME/.claude/skills/captar-leads"
 
 mkdir -p "$AGENTS_DEST" "$SKILLS_DEST"
-cp "$SCRIPT_DIR/.claude/agents/lead-finder.md" "$AGENTS_DEST/lead-finder.md"
-cp "$SCRIPT_DIR/.claude/agents/lead-qualifier.md" "$AGENTS_DEST/lead-qualifier.md"
-cp "$SCRIPT_DIR/.claude/skills/captar-leads/SKILL.md" "$SKILLS_DEST/SKILL.md"
+cp "$SCRIPT_DIR/lead-finder.md" "$AGENTS_DEST/lead-finder.md"
+cp "$SCRIPT_DIR/lead-qualifier.md" "$AGENTS_DEST/lead-qualifier.md"
+cp "$SCRIPT_DIR/SKILL.md" "$SKILLS_DEST/SKILL.md"
 
 echo ""
 echo "Instalado com sucesso."
